@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  align-items: center;
+}
+
+.navbar a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #000;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  background: linear-gradient(45deg,#6a9cff,#ff8cc6);
+  color: #fff;
+  border-radius: 20px;
+}
+
+.hero {
+  padding: 80px;
+  background: #f5f7ff;
+}
+
+.hero h1 {
+  font-size: 48px;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 30px;
+}
+
+.filters span {
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+.active {
+  background: linear-gradient(45deg,#6a9cff,#ff8cc6);
+  color: white;
+}
+
+.courses {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
+
+.card {
+  width: 280px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 100%;
+}
+
+.card h3, .card p {
+  padding: 10px;
+}
+
+.experts {
+  text-align: center;
+  padding: 60px;
+}
+
+.expert-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.expert img {
+  width: 120px;
+  border-radius: 50%;
+}
+
+.faq {
+  padding: 60px;
+  background: #f5f7ff;
+}
+
+.faq-box {
+  background: white;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+.cta {
+  text-align: center;
+  padding: 80px;
+  background: linear-gradient(45deg,#6a9cff,#ff8cc6);
+  color: white;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+}
